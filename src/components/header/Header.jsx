@@ -14,19 +14,23 @@ const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello, I'm</h5>
-        <h1>Ben Schwartz</h1>
-        <h5 className="text-light">Full Stack Developer</h5>
 
-        <CTA />
-        <HeaderSocials />
+        <div className="header__intro">
+          <h5>Hello, I'm</h5>
+          <h1>Ben Schwartz</h1>
+          <h5 className="text-light">Full Stack Developer</h5>
+
+          <CTA />
+
+        </div>
 
         <div className="me-img">
           <img src={placeholder_me} alt="Myself" />
         </div>
-
-        {/* Not sure I even want this */}
-        <a href="#contact" className="scroll_down">Scroll Down</a>
+        
+        <div className="socials__container">
+          <HeaderSocials />
+        </div>
 
       </div>
     </header>

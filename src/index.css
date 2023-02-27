@@ -32,6 +32,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 /*  hide scrollbar on webkit-based browsers (chrome). According to CGPT, this might only apply to chrome, while a 'scrollbar-width' property might apply cross-browser
     possibly check with david/boc how to make sure this works across browsers
 */
@@ -39,14 +40,16 @@ html {
   display: none;
 }
 
+
 body {
   font-family: 'Poppins', sans-serif;
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-
+  
   /* Maybe find a better one later */
   background-image: url(../src/assets/tutorial-assets/bg-texture.png); 
+
 }
 
 

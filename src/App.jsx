@@ -1,11 +1,11 @@
 import React from 'react'
 import Header from './components/header/Header'
+import Blibble from './components/blibble/Blibble'
 import Nav from './components/nav/Nav'
 import About from './components/about/About'
-import Experience from './components/experience/Experience'
-import Services from './components/services/Services'
+import Skills from './components/skills/Skills'
+import Details from './components/details/Details'
 import Portfolio from './components/portfolio/Portfolio'
-import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 
@@ -15,12 +15,12 @@ const App = () => {
     //Importing all components in order I want them displayed on page
     <>
       <Header />
+      {/* <Blibble /> */}
       <Nav />
       <About />
-      <Experience />
-      <Services />
+      <Details />
+      <Skills />
       <Portfolio />
-      <Testimonials />
       <Contact />
       <Footer />
       

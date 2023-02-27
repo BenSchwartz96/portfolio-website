@@ -1,0 +1,79 @@
+.skills__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;       /* So 50% on left, 50% on right */
+  gap: 2rem;
+}
+
+/* .skills__frontend, .skills__backend & .skills__other */
+.skills__container > div {
+  background: var(--color-bg-variant);
+  padding: 2.4rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;            /* Check this deeper. Why number, then solid, then transparent */
+  transition: var(--transition);
+}
+
+.skills__container > div:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+
+.skills__container > div h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-primary);
+}
+
+
+/* I don't like how its aligned in here. I want the two columns to appear more centered. too much space on the right compared to on the left */
+.skills__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;       /* Add a third fr if i want 3 columns */
+  row-gap: 2rem;
+}
+
+.skills__details {
+  display: flex;
+  gap: 1rem;
+}
+
+.skills__details-icon {
+  margin-top: 6px;
+  color: var(--color-primary);
+}
+
+
+
+/* ==== Media Queries ==== */
+
+/* Medium devices (tablets) */
+@media screen and (max-width: 1024px) {
+  .skills__container {
+    grid-template-columns: 1fr;
+  }
+
+  .skills__container > div {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+
+  .skills__content {
+    padding: 1rem;
+  }
+
+}
+
+/* Small devices (phones) */
+@media screen and (max-width: 600px) {
+  .skills__container {
+    gap: 1rem;
+  }
+
+  .skills__container > div {
+    width: 100%;
+    padding: 2rem 1rem;           /* top/bottom - left/right */
+  }
+
+}

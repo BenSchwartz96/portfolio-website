@@ -1,5 +1,5 @@
 header {
-  height: 100vh;
+  height: 80vh;
   padding-top: 7rem;
   overflow: hidden;
 }
@@ -10,8 +10,9 @@ header {
   position: relative;
 }
 
-
-/* ==== CTA Buttons ==== */
+.header__intro h5 {
+  font-size: 1rem;
+}
 
 .cta {
   margin-top: 2.5rem;
@@ -21,59 +22,28 @@ header {
 }
 
 
-/* ==== Socials ==== */
+.socials__container {
+  margin-top: 2rem;
+}
 
 .header_socials {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  gap: 0.8rem;
-  position: absolute;
-  left: 0;
-  bottom: 3rem;
+  justify-content: center;
+  gap: 1rem;
 }
-
-.header_socials::after {
-  content: '';
-  width: 1px;
-  height: 2rem;
-  background: var(--color-primary);
-}
-
-
-/* ==== Image ==== */
-
-/* Tutorial did something funky with the background parameter (around 1:02:30) */
 
 .me-img {
-  background: var(--color-primary);
-  width: 26rem;
-  height: 32rem;
-  position: absolute;
-  left: calc(50% - 13rem);
-  margin-top: 4rem;
+  width: 20%;
+
   overflow: hidden;
-
-  /* This is what creates the 'church window' effect */
+  margin: 3rem auto 0;
   border-radius: 12rem 12rem 0 0;
-
-
-  /* Tutorial line. Looks horrible with the placeholder image though */
-  /* padding: 5rem 1.5rem 1.5rem 1.5rem; */ 
-
 }
 
 
-/* ==== Scrolldown element ==== */
 
-.scroll_down {
-  position: absolute;
-  right: -2.3rem;
-  bottom: 5rem;
-  transform: rotate(90deg);
-  font-weight: 300;
-  font-size: 1rem;
-}
 
 
 /* ==== Media Queries ==== */
@@ -88,11 +58,11 @@ header {
 /* Small devices (phones) */
 @media screen and (max-width: 600px) {
   header {
-    height: 100vh;
+    height: 85vh;         /* was set to 100 for tutorial */
   }
 
-  .header_socials,
-  .scroll_down {
+
+  .header_socials {
     display: none;
   }
 }
