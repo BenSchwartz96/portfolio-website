@@ -6,7 +6,7 @@ import {VscCircleFilled} from 'react-icons/vsc'
 
 const Details = () => {
   return (
-    <section id="services">
+    <section id="details">
       {/* <h5>About Me</h5> */}
       <h2>Further Details</h2>
 

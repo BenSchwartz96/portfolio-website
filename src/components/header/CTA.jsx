@@ -1,6 +1,6 @@
 import React from 'react'
 
-import CV from '../../assets/tutorial-assets/cv.pdf'
+import CV from '../../assets/CV_placeholder.pdf'
 
 // Call to action buttons
 const CTA = () => {

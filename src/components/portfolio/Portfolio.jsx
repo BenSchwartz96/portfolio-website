@@ -15,7 +15,7 @@ const data = [
     id: 1,
     image: img1,
     title: 'This Website',
-    description: 'The site you\'re on right now. Made with React, JS, & CSS.',
+    description: 'The site you\'re on right now, designed to present myself to potential employers. Made with CRA, React, JS, & CSS.',
     github: 'https://github.com/BenSchwartz96/portfolio-website',
     demo: 'none'
   },
@@ -31,7 +31,7 @@ const data = [
     id: 3,
     image: img3,
     title: 'Movie API w NodeJS',
-    description: 'An API, built with NodeJS, Express, MongoDB & Mongoose, to tie into a later project. The API interacts with a database containing information about movies, directors, and users.',
+    description: 'An API, built with NodeJS, Express, MongoDB & Mongoose, for the purposes of tying into the MyFlix projects. The API interacts with a database containing information about movies, directors, and users.',
     github: 'https://github.com/BenSchwartz96/Movie-API',
     demo: 'none'
   },
@@ -47,7 +47,7 @@ const data = [
     id: 5,
     image: img4,
     title: 'MyFlix (Angular)',
-    description: 'Another version of MyFlix, this time made with (and for the purposes of learning) Angular.',
+    description: 'Another version of MyFlix, this time made with (and for the purposes of learning) Angular. Though the surface differences are largely minor and cosmetic, the underlying structure is completely different.',
     github: 'https://github.com/BenSchwartz96/myflix_angular',
     demo: 'https://benschwartz96.github.io/myflix_angular/welcome'
   },
@@ -55,7 +55,7 @@ const data = [
     id: 6,
     image: img5,
     title: 'Meet (PENDING VERIFICATION)',
-    description: 'A PWA built using a test-driven development approach, which linked to the Google Calendar API to find events and present information about them. In this project, I began learning Enzyme, Jest, OAuth2 and AWS.',
+    description: 'A PWA built using a test-driven development approach, which linked to the Google Calendar API to find events and present information about them. In this project, I began learning how to use OAuth2 and AWS, as well as various testing tools and libraries such as Enzyme, Jest, Puppeteer, and Cucumber. ',
     github: 'https://github.com/BenSchwartz96/meet',
     demo: 'https://benschwartz96.github.io/meet/'
   },
@@ -63,7 +63,7 @@ const data = [
     id: 7,
     image: img6,
     title: 'React Native Chat App',
-    description: 'Chat app made with (and for the purposes of learning) react native. Used gifted chat too',
+    description: 'Chat app made with (and for the purposes of learning) React Native. Developed with Expo and GiftedChat, the app made a functional chat room for multiple users.',
     github: 'https://github.com/BenSchwartz96/chat_app',
     demo: 'none'
   },
@@ -83,7 +83,7 @@ const Portfolio = () => {
               return (
                 <article key={id} className="portfolio__item">
                   <div className="portfolio__item-img">
-                    <img src={image} alt={title} />
+                    {/* <img src={image} alt={title} /> */}
                   </div>
                   <h3>{title}</h3>
                   <p>{description}</p>
