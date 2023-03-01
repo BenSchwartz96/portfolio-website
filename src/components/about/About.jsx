@@ -28,7 +28,7 @@ const About = () => {
             <article className="about__card">
               <FaCode className="about__icon"/>
               <h5>Seeking</h5>
-              <small>A role as a Junior Full-Stack Developer in a team where I can learn and grow.</small>
+              <small>A role as a Full-Stack Web Developer in a team where I can learn and grow.</small>
             </article>
 
             <article className="about__card">

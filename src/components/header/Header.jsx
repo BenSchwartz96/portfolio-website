@@ -18,15 +18,15 @@ const Header = () => {
         <div className="header__intro">
           <h5>Hello, I'm</h5>
           <h1>Ben Schwartz</h1>
-          <h5 className="text-light">Full Stack Developer</h5>
+          <h5 className="text-light">Full Stack Web Developer</h5>
 
           <CTA />
 
         </div>
 
-        <div className="me-img">
+        {/* <div className="me-img">
           <img src={placeholder_me} alt="Myself" />
-        </div>
+        </div> */}
         
         <div className="socials__container">
           <HeaderSocials />

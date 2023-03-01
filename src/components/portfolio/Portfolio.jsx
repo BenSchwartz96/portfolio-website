@@ -54,7 +54,7 @@ const data = [
   {
     id: 6,
     image: img5,
-    title: 'Meet (PENDING VERIFICATION)',
+    title: 'Meet',
     description: 'A PWA built using a test-driven development approach, which linked to the Google Calendar API to find events and present information about them. In this project, I began learning how to use OAuth2 and AWS, as well as various testing tools and libraries such as Enzyme, Jest, Puppeteer, and Cucumber. ',
     github: 'https://github.com/BenSchwartz96/meet',
     demo: 'https://benschwartz96.github.io/meet/'

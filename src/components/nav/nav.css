@@ -6,12 +6,12 @@ nav {
   z-index: 2;
   position: fixed;
   left: 50%;
-  transform: translateX(-50%);        /* Check this one, dont get it*/
+  transform: translateX(-50%);
   bottom: 2rem;
   display: flex;
   gap: 0.8rem;
   border-radius: 3rem;
-  backdrop-filter: blur(15px);        /* Check this one, dont get it*/
+  backdrop-filter: blur(15px);
 }
 
 nav a {

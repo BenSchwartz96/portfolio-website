@@ -1,15 +1,15 @@
 .skills__container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;       /* So 50% on left, 50% on right */
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
 }
 
 /* .skills__frontend, .skills__backend & .skills__other */
 .skills__container > div {
   background: var(--color-bg-variant);
-  padding: 2.4rem 5rem;
+  padding: 2.4rem 3rem;
   border-radius: 2rem;
-  border: 1px solid transparent;            /* Check this deeper. Why number, then solid, then transparent */
+  border: 1px solid transparent;
   transition: var(--transition);
 }
 
@@ -26,10 +26,9 @@
 }
 
 
-/* I don't like how its aligned in here. I want the two columns to appear more centered. too much space on the right compared to on the left */
 .skills__content {
   display: grid;
-  grid-template-columns: 1fr 1fr;       /* Add a third fr if i want 3 columns */
+  grid-template-columns: 1fr 1fr;
   row-gap: 2rem;
 }
 
@@ -73,7 +72,7 @@
 
   .skills__container > div {
     width: 100%;
-    padding: 2rem 1rem;           /* top/bottom - left/right */
+    padding: 2rem 1rem;
   }
 
 }

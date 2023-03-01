@@ -1,5 +1,7 @@
 header {
-  height: 80vh;
+
+  height: auto;   
+
   padding-top: 7rem;
   overflow: hidden;
 }
@@ -53,16 +55,27 @@ header {
   header {
     height: 68vh;
   }
+
+  .me-img {
+    width: 30%;
+  }
 }
 
 /* Small devices (phones) */
 @media screen and (max-width: 600px) {
   header {
-    height: 85vh;         /* was set to 100 for tutorial */
+    /* height: 85vh;          */
   }
 
+  .header__intro {
+    margin-top: 30%;
+  }
 
   .header_socials {
     display: none;
+  }
+
+  .me-img {
+    width: 80%;
   }
 }

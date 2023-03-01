@@ -178,13 +178,6 @@ const Skills = () => {
               </div>
             </article>
 
-            <article className="skills__details">
-              <BsPatchCheckFill className="skills__details-icon" />
-              <div>
-                <h4>Communication</h4>
-                <small className="text-light"></small>
-              </div>
-            </article>
           </div>
         </div>
         {/* END OF BACK-END SECTION */}
