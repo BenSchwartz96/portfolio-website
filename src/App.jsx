@@ -11,7 +11,6 @@ import Footer from './components/footer/Footer'
 //Root app component
 const App = () => {
   return (
-    //Importing all components in order I want them displayed on page
     <>
       <Header />
       <Nav />

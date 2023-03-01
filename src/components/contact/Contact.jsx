@@ -6,7 +6,6 @@ import emailjs from 'emailjs-com'
 //Icons
 import {MdOutlineEmail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
-import {BsWhatsapp} from 'react-icons/bs'
 
 const Contact = () => {
 
@@ -15,7 +14,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_oys0vpl', 'template_4ktyyuj', form.current, 'syDEJe2jlfdl-0bTB')     /*Check if this works, not 100% i copied right thing for user ID (the last one) */
+    emailjs.sendForm('service_oys0vpl', 'template_4ktyyuj', form.current, 'syDEJe2jlfdl-0bTB')
     e.target.reset()
       .then((result) => {
           console.log(result.text);

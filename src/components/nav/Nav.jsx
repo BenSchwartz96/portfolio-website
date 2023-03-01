@@ -15,10 +15,6 @@ const Nav = () => {
 
   return (
 
-    // In tutorial, was 'services' instead of 'portfolio'
-    // Replace the RiServiceLine icon, don't like it. BiBook should be for portfolio, and find another for experience/skills
-
-    //ask CGPT about the href stuff. i think # indicates that its a component and to just move to where it is
     <nav>
       <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}> <AiOutlineHome/> </a>
       <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}> <AiOutlineUser/> </a>

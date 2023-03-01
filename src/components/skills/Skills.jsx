@@ -1,5 +1,3 @@
-//This section will be presented as "skills", that is, which languages/packages im familiar with.
-
 import React from 'react'
 import './skills.css'
 
