@@ -7,7 +7,6 @@ import HeaderSocials from './headerSocials'
 
 
 // Assets
-import me_img from '../../assets/tutorial-assets/me.png'
 import placeholder_me from '../../assets/placeholder_me.jpg'
 
 const Header = () => {

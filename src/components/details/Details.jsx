@@ -76,7 +76,7 @@ const Details = () => {
             </li>
             <li>
               <VscCircleFilled className="details__list-icon" />
-              <p>Talkative</p>
+              <p>Good Communicator</p>
             </li>
 
 

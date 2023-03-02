@@ -1,19 +1,11 @@
 import React from 'react'
 import './portfolio.css'
 
-//Images
-import img1 from '../../assets/tutorial-assets/portfolio1.jpg'
-import img2 from '../../assets/tutorial-assets/portfolio2.jpg'
-import img3 from '../../assets/tutorial-assets/portfolio3.jpg'
-import img4 from '../../assets/tutorial-assets/portfolio4.jpg'
-import img5 from '../../assets/tutorial-assets/portfolio5.png'
-import img6 from '../../assets/tutorial-assets/portfolio6.jpg'
-
 
 const data = [
   {
     id: 1,
-    image: img1,
+    image: '',
     title: 'This Website',
     description: 'The site you\'re on right now, designed to present myself to potential employers. Made with CRA, React, JS, & CSS.',
     github: 'https://github.com/BenSchwartz96/portfolio-website',
@@ -21,7 +13,7 @@ const data = [
   },
   {
     id: 2,
-    image: img2,
+    image: '',
     title: 'Budget Pokedex',
     description: 'My first contact with Javascript - A very simple Pokedex app that lets you find and see information about generation 1 Pokemon.',
     github: 'https://github.com/BenSchwartz96/simple-pokedex',
@@ -29,15 +21,15 @@ const data = [
   },
   {
     id: 3,
-    image: img3,
+    image: '',
     title: 'Movie API w NodeJS',
     description: 'An API, built with NodeJS, Express, MongoDB & Mongoose, for the purposes of tying into the MyFlix projects. The API interacts with a database containing information about movies, directors, and users.',
     github: 'https://github.com/BenSchwartz96/Movie-API',
-    demo: 'none'
+    demo: 'https://elt-myflix.herokuapp.com/documentation.html'
   },
   {
     id: 4,
-    image: img3,
+    image: '',
     title: 'MyFlix (React)',
     description: 'My initial learning project with React. A basic site that allows you to sign up, peruse information about movies, directors, and genres, and select favorites.',
     github: 'https://github.com/BenSchwartz96/myFlix-client',
@@ -45,7 +37,7 @@ const data = [
   },
   {
     id: 5,
-    image: img4,
+    image: '',
     title: 'MyFlix (Angular)',
     description: 'Another version of MyFlix, this time made with (and for the purposes of learning) Angular. Though the surface differences are largely minor and cosmetic, the underlying structure is completely different.',
     github: 'https://github.com/BenSchwartz96/myflix_angular',
@@ -53,7 +45,7 @@ const data = [
   },
   {
     id: 6,
-    image: img5,
+    image: '',
     title: 'Meet',
     description: 'A PWA built using a test-driven development approach, which linked to the Google Calendar API to find events and present information about them. In this project, I began learning how to use OAuth2 and AWS, as well as various testing tools and libraries such as Enzyme, Jest, Puppeteer, and Cucumber. ',
     github: 'https://github.com/BenSchwartz96/meet',
@@ -61,11 +53,11 @@ const data = [
   },
   {
     id: 7,
-    image: img6,
+    image: '',
     title: 'React Native Chat App',
     description: 'Chat app made with (and for the purposes of learning) React Native. Developed with Expo and GiftedChat, the app made a functional chat room for multiple users.',
     github: 'https://github.com/BenSchwartz96/chat_app',
-    demo: 'none'
+    demo: 'https://www.youtube.com/watch?v=x8qeEnUMcTc'
   },
 ]
 
@@ -90,7 +82,7 @@ const Portfolio = () => {
                   <div className="portfolio__item-cta">
                     <a href={github} className="btn" target='_blank'>Github</a>
                     {demo !== 'none' && (
-                      <a href={demo} className="btn btn-primary" target='_blank'>Live Demo</a>
+                      <a href={demo} className="btn btn-primary" target='_blank'>Demo</a>
                     )}
                   </div>
               </article>

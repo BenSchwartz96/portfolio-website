@@ -43,7 +43,15 @@ const Skills = () => {
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
-                <h4>React + React Native</h4>
+                <h4>TypeScript</h4>
+                <small className="text-light"></small>
+              </div>
+            </article>
+
+            <article className="skills__details">
+              <BsPatchCheckFill className="skills__details-icon" />
+              <div>
+                <h4>React</h4>
                 <small className="text-light"></small>
               </div>
             </article>
@@ -60,14 +68,6 @@ const Skills = () => {
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
                 <h4>Angular</h4>
-                <small className="text-light"></small>
-              </div>
-            </article>
-
-            <article className="skills__details">
-              <BsPatchCheckFill className="skills__details-icon" />
-              <div>
-                <h4>Expo</h4>
                 <small className="text-light"></small>
               </div>
             </article>
@@ -127,7 +127,15 @@ const Skills = () => {
                 <small className="text-light"></small>
               </div>
             </article>
-                        
+          </div>
+        </div>
+        {/* END OF BACK-END SECTION */}
+
+        {/* START OF TESTS SECTION */}
+        <div className="skills__tests">
+          <h3>Tests</h3>
+          <div className="skills__content">
+
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
@@ -143,9 +151,51 @@ const Skills = () => {
                 <small className="text-light"></small>
               </div>
             </article>
+
+            <article className="skills__details">
+              <BsPatchCheckFill className="skills__details-icon" />
+              <div>
+                <h4>Jest Cucumber </h4>
+                <small className="text-light"></small>
+              </div>
+            </article>
+
+            <article className="skills__details">
+              <BsPatchCheckFill className="skills__details-icon" />
+              <div>
+                <h4>Puppeteer</h4>
+                <small className="text-light"></small>
+              </div>
+            </article>
+
           </div>
         </div>
-        {/* END OF BACK-END SECTION */}
+        {/* END OF TESTS SECTION */}
+
+        {/* START OF MOBILE SECTION */}
+        <div className="skills__mobile">
+          <h3>Mobile Development</h3>
+          <div className="skills__content">
+
+            <article className="skills__details">
+              <BsPatchCheckFill className="skills__details-icon" />
+              <div>
+                <h4>React Native</h4>
+                <small className="text-light"></small>
+              </div>
+            </article>
+
+            <article className="skills__details">
+              <BsPatchCheckFill className="skills__details-icon" />
+              <div>
+                <h4>Expo</h4>
+                <small className="text-light"></small>
+              </div>
+            </article>
+
+          </div>
+        </div>
+        {/* END OF MOBILE SECTION */}
 
         {/* START OF OTHER SECTION */}
         <div className="skills__other">
@@ -176,9 +226,25 @@ const Skills = () => {
               </div>
             </article>
 
+            <article className="skills__details">
+              <BsPatchCheckFill className="skills__details-icon" />
+              <div>
+                <h4>JSDoc</h4>
+                <small className="text-light"></small>
+              </div>
+            </article>
+
+            <article className="skills__details">
+              <BsPatchCheckFill className="skills__details-icon" />
+              <div>
+                <h4>TypeDoc</h4>
+                <small className="text-light"></small>
+              </div>
+            </article>
+
           </div>
         </div>
-        {/* END OF BACK-END SECTION */}
+        {/* END OF OTHER SECTION */}
 
       </div>
     </section>
