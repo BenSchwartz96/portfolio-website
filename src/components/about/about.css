@@ -29,7 +29,7 @@
 .about__me-image {
   border-radius: 2rem;
   overflow: hidden;
-  transform: rotate(3deg);              
+  transform: rotate(3deg);   
   transition: var(--transition);
 }
 

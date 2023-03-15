@@ -8,6 +8,7 @@ import {AiOutlineFlag} from 'react-icons/ai'
 import {FaCode} from 'react-icons/fa'
 
 import placeholder_me from '../../assets/placeholder_me.jpg'
+import main_me_pic from '../../assets/portfolio_pfp.png'
 
 const About = () => {
   return (
@@ -19,7 +20,8 @@ const About = () => {
 
         <div className="about__me">
           <div className="about__me-image">
-            <img src={placeholder_me} alt="About image" />
+            {/* <img src={placeholder_me} alt="About image" /> */}
+            <img src={main_me_pic} alt="About image" />
           </div>
         </div>
 
