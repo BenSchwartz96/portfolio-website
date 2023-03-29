@@ -9,6 +9,7 @@ import {FaCode} from 'react-icons/fa'
 
 import placeholder_me from '../../assets/placeholder_me.jpg'
 import main_me_pic from '../../assets/portfolio_pfp.png'
+import me_pic_2 from '../../assets/portfolio_pfp2.png'
 
 const About = () => {
   return (
@@ -21,7 +22,8 @@ const About = () => {
         <div className="about__me">
           <div className="about__me-image">
             {/* <img src={placeholder_me} alt="About image" /> */}
-            <img src={main_me_pic} alt="About image" />
+            {/* <img src={main_me_pic} alt="About image" /> */}
+            <img src={me_pic_2} alt="About image" />
           </div>
         </div>
 
