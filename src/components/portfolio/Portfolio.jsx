@@ -14,10 +14,10 @@ const data = [
   {
     id: 2,
     image: '',
-    title: 'Budget Pokedex',
-    description: 'My first contact with Javascript - A very simple Pokedex app that lets you find and see information about generation 1 Pokemon.',
-    github: 'https://github.com/BenSchwartz96/simple-pokedex',
-    demo: 'https://benschwartz96.github.io/simple-pokedex/'
+    title: 'Reprovisioning Script',
+    description: 'A script from my last job, designed to read customer files in order to automate the process of identifying and fixing regular provisioning errors.',
+    github: '',
+    demo: 'none'
   },
   {
     id: 3,
@@ -51,14 +51,14 @@ const data = [
     github: 'https://github.com/BenSchwartz96/meet',
     demo: 'https://benschwartz96.github.io/meet/'
   },
-  {
-    id: 7,
-    image: '',
-    title: 'React Native Chat App',
-    description: 'Chat app made with (and for the purposes of learning) React Native. Developed with Expo and GiftedChat, the app made a functional chat room for multiple users.',
-    github: 'https://github.com/BenSchwartz96/chat_app',
-    demo: 'https://www.youtube.com/watch?v=x8qeEnUMcTc'
-  },
+  // {
+  //   id: 7,
+  //   image: '',
+  //   title: 'React Native Chat App',
+  //   description: 'Chat app made with (and for the purposes of learning) React Native. Developed with Expo and GiftedChat, the app made a functional chat room for multiple users.',
+  //   github: 'https://github.com/BenSchwartz96/chat_app',
+  //   demo: 'https://www.youtube.com/watch?v=x8qeEnUMcTc'
+  // },
 ]
 
 

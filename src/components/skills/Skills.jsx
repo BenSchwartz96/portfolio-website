@@ -11,6 +11,31 @@ const Skills = () => {
 
       <div className="container skills__container">
 
+  
+        {/* START OF FRONT-END SECTION */}
+        <div className="skills__coding">
+          <h3>Coding</h3>
+          <div className="skills__content">
+          
+            <article className="skills__details">
+              <BsPatchCheckFill className="skills__details-icon" />
+              <div>
+                <h4>Python</h4>
+                <small className="text-light"></small>
+              </div>
+            </article>
+
+            <article className="skills__details">
+              <BsPatchCheckFill className="skills__details-icon" />
+              <div>
+                <h4>C#</h4>
+                <small className="text-light"></small>
+              </div>
+            </article>
+          </div>
+        </div>
+        {/* END OF CODING SECTION */}
+
         {/* START OF FRONT-END SECTION */}
         <div className="skills__frontend">
           <h3>Front-End Development</h3>
@@ -104,13 +129,13 @@ const Skills = () => {
               </div>
             </article>
 
-            <article className="skills__details">
+            {/* <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
                 <h4>Python</h4>
                 <small className="text-light"></small>
               </div>
-            </article>
+            </article> */}
 
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />

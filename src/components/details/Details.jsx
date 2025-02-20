@@ -76,7 +76,7 @@ const Details = () => {
             </li>
             <li>
               <VscCircleFilled className="details__list-icon" />
-              <p>Good Communicator</p>
+              <p>Communicative</p>
             </li>
 
 
@@ -87,17 +87,18 @@ const Details = () => {
         {/* DETAILS LIST 3 */}
         <article className="details__section">
           <div className="details__head">
-            <h3>Pre-Developer Experience</h3>
+            <h3>Experience</h3>
           </div>
 
           <ul className="details__list">
+
             <li>
               <VscCircleFilled className="details__list-icon" />
-              <p>Bar Work</p>
+              <p>SWE in the IPTV Industry.</p>
             </li>
             <li>
               <VscCircleFilled className="details__list-icon" />
-              <p>Volunteering</p>
+              <p>Lab/Research Assistant</p>
             </li>
             <li>
               <VscCircleFilled className="details__list-icon" />
@@ -105,7 +106,7 @@ const Details = () => {
             </li>
             <li>
               <VscCircleFilled className="details__list-icon" />
-              <p>Lab/Research Assistant</p>
+              <p>Web Development Bootcamp</p>
             </li>
           </ul> 
         </article>
