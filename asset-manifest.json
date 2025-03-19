@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7bd6e20d.css",
+    "main.js": "/static/js/main.20f0984c.js",
+    "static/media/portfolio_pfp3.jpg": "/static/media/portfolio_pfp3.c0cdd2713cc357c3de95.jpg",
+    "static/media/BenSchwartz_CV_2025.pdf": "/static/media/BenSchwartz_CV_2025.6ae0904f4495f30040f4.pdf",
+    "static/media/placeholder_me.jpg": "/static/media/placeholder_me.58ec7216bc16b9345ed8.jpg",
+    "static/media/BenSchwartz_CV.pdf": "/static/media/BenSchwartz_CV.5e8c139d15b6afb15e96.pdf",
+    "index.html": "/index.html",
+    "main.7bd6e20d.css.map": "/static/css/main.7bd6e20d.css.map",
+    "main.20f0984c.js.map": "/static/js/main.20f0984c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bd6e20d.css",
+    "static/js/main.20f0984c.js"
+  ]
+}
