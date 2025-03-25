@@ -15,8 +15,8 @@ const data = [
     id: 2,
     image: '',
     title: 'Reprovisioning Script',
-    description: 'A script from my last job, designed to read customer files in order to automate the process of identifying and fixing regular provisioning errors.',
-    github: '',
+    description: 'A Python script from my last job, designed to read customer files and automate the process of identifying and fixing regular provisioning errors.',
+    github: 'https://github.com/BenSchwartz96/Redacted_Reprovisioning_Script',
     demo: 'none'
   },
   {
